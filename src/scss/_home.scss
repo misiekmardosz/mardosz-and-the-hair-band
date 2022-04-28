@@ -1,0 +1,28 @@
+@import "variables/fontsFile";
+.container{
+  .home_header_container{
+    background: url("../assets/mardosz4.jpg") bottom;
+    height: 800px;
+    width: 100%;
+    position: relative;
+    .navigation{
+      position: sticky;
+      background: #495940;
+      display: flex;
+      justify-content: center;
+      .nav--link{
+        font-family: $font-base;
+        color: #c7c7c7;
+        font-size: 40px;
+        padding: 30px;
+      }
+    }
+    .logo{
+      position: absolute;
+      right: 300px;
+      width: 50%;
+      height: 500px;
+      background: url("../assets/Kajo_logo_safespace.png") center/cover;
+    }
+  }
+}
